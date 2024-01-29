@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 20rem;
+  height: 20rem;
+  margin: auto;
+  background-color: #f5f5f5;
+  color: #2b283a;
+  font-family: "Karla", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.container h1 {
+  font-size: 1.625rem;
+  font-weight: 700;
+  margin: 0;
+}
+.container p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #4a4e74;
+  margin-top: 0;
+  margin-bottom: 1.875rem;
+}
+.container button {
+  background-color: #5035ff;
+  color: #ffffff;
+  padding: 0.6rem 1.3125rem;
+}
+.content {
+  padding: 2.1875rem;
+}
+.dices {
+  display: grid;
+  box-sizing: border-box;
+  grid-template-columns: repeat(5, minmax(0, 20%));
+  gap: 1.125rem;
+  height: 5.5rem;
+  margin-bottom: 1.5625rem;
+}
+.dices > button {
+  font-weight: bold;
+  font-size: 21px;
+  font-family: "Karla";
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  color: #2b283a;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.dices .selected {
+  background-color: #59e391;
+}
